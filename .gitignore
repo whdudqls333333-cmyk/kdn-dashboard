@@ -1,0 +1,8 @@
+# Ignore everything at root level
+/*
+
+# Except project files
+!/vite-project
+!/package.json
+!/package-lock.json
+!/.gitignore
