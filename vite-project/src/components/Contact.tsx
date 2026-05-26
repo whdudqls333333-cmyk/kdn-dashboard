@@ -1,7 +1,7 @@
 import { useInView } from '../hooks/useInView'
 
 const contactItems = [
-  { icon: '✉️', label: '이메일', value: 'minjai.dev@gmail.com', href: 'mailto:minjai.dev@gmail.com' },
+  { icon: '✉️', label: '이메일', value: 'cybb_0827@kdn.com', href: 'mailto:cybb_0827@kdn.com' },
   { icon: '📱', label: '연락처', value: '010-1234-5678',        href: 'tel:01012345678' },
 ]
 
@@ -54,7 +54,7 @@ export default function Contact() {
             <div className="contact__cta-inner">
               <h3>새로운 프로젝트가 있으신가요?</h3>
               <p>아이디어를 현실로 만들어 드립니다.<br />언제든지 편하게 연락주세요!</p>
-              <a href="mailto:minjai.dev@gmail.com" className="btn-primary">
+              <a href="mailto:cybb_0827@kdn.com" className="btn-primary">
                 이메일 보내기 ✉️
               </a>
             </div>

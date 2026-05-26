@@ -9,7 +9,7 @@ export default function About() {
         <div ref={ref} className={`about__inner fade-in${inView ? ' visible' : ''}`}>
           <div className="about__avatar-col">
             <div className="about__avatar-wrap">
-              <div className="about__avatar">KM</div>
+              <div className="about__avatar">조영</div>
               <div className="about__avatar-ring" />
             </div>
           </div>

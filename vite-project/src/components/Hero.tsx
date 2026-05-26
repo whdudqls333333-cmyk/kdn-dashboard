@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="hero__content">
         <span className="hero__greeting">👋 안녕하세요, 저는</span>
         <h1 className="hero__name">
-          김<span>민재</span>
+          조<span>영빈</span>
         </h1>
         <p className="hero__title">Frontend Developer &amp; UI Designer</p>
         <p className="hero__bio">

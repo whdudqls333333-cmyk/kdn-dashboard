@@ -24,7 +24,7 @@ export default function Navbar() {
       <div className="navbar__inner">
         <button className="navbar__logo" onClick={() => handleLink('hero')}>
           <span className="navbar__dot" />
-          Kim.dev
+          Jo.dev
         </button>
 
         <ul className={`navbar__links${open ? ' open' : ''}`}>
