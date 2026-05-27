@@ -25,6 +25,7 @@ const OrderHistory = lazy(() => import('../pages/OrderHistory'));
 const Curriculum = lazy(() => import('../pages/Curriculum'));
 const CurriculumBasic = lazy(() => import('../pages/CurriculumBasic'));
 const CurriculumIntermediate = lazy(() => import('../pages/CurriculumIntermediate'));
+const CurriculumDay25 = lazy(() => import('../pages/CurriculumDay25'));
 const CurriculumAdvanced = lazy(() => import('../pages/CurriculumAdvanced'));
 const Lecture = lazy(() => import('../pages/Lecture'));
 const LectureSetup = lazy(() => import('../pages/LectureSetup'));
@@ -88,6 +89,7 @@ const PublicLayout = (): ReactElement => {
             <Route path="/curriculum" element={<Curriculum />} />
             <Route path="/curriculum/basic" element={<CurriculumBasic />} />
             <Route path="/curriculum/intermediate" element={<CurriculumIntermediate />} />
+            <Route path="/curriculum/day2half" element={<CurriculumDay25 />} />
             <Route path="/curriculum/advanced" element={<CurriculumAdvanced />} />
 
             {/* 강의안 */}

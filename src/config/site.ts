@@ -76,6 +76,7 @@ const site: SiteConfig = {
       dropdown: [
         { path: '/curriculum/basic', labelKey: 'site.nav.day1' },
         { path: '/curriculum/intermediate', labelKey: 'site.nav.day2' },
+        { path: '/curriculum/day2half', labelKey: 'site.nav.day2half' },
         { path: '/curriculum/advanced', labelKey: 'site.nav.day3' }
       ]
     },
