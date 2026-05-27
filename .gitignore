@@ -3,6 +3,7 @@
 
 # Except project files
 !/vite-project
+!/todo-app
 !/package.json
 !/package-lock.json
 !/.gitignore
